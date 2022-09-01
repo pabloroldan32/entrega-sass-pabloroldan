@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif; }
+
+main {
+  background-color: rgba(221, 148, 58, 0.3); }
+
+/*zolapa telefono*/
+.telefono {
+  background-color: rgba(28, 28, 28, 0.9); }
+
+.redes {
+  background-color: rgba(28, 28, 28, 0.9); }
+
+header {
+  /*FOTO FONDO DE NAV*/
+  /*logo central*/ }
+  header .telefono {
+    text-align: center; }
+  header .telefono span {
+    color: white; }
+  header .bg-nav {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.2), rgba(5, 7, 12, 0.2)), url(../img/img-10huaco.jpg);
+    width: 100%;
+    height: 90vh; }
+  header .logo-img {
+    margin-top: 2%;
+    margin-left: 35%;
+    text-align: center; }
+
+main {
+  /*info JACHAL*/
+  /*seccion de fotos e info*/
+  /*PROX whatsapp*/
+  /*Section Mapa*/ }
+  main h2 {
+    background-color: rgba(135, 135, 251, 0.2);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    border: 2px solid; }
+  main .info-jachal {
+    width: 100%;
+    border: 1px solid;
+    font-size: large;
+    font-weight: 600;
+    text-align: center; }
+  main .info-jachal p {
+    margin: 15px; }
+  main .flex-lugares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  main .text-infolugares {
+    background-color: rgba(255, 255, 249, 0.5);
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+    font-size: large; }
+  main .text-infolugares img {
+    border-radius: 5%; }
+  main .text-infolugares img:hover {
+    transform: scale(1.03);
+    transition: transfor 3s;
+    cursor: pointer; }
+  main .text-infolugares p {
+    font-size: 18px;
+    font-weight: 300; }
+  main .w-100 {
+    width: 100%; }
+  main .mapa {
+    display: flex;
+    border: 1px solid;
+    flex-direction: row;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    overflow: hidden; }
+  main .mapa-ruta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  main .info-ruta40 {
+    display: flex;
+    background-color: rgba(255, 255, 249, 0.5);
+    border: 1px solid;
+    flex-direction: row;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    overflow: hidden; }
+
+.redes {
+  border: 2px solid;
+  width: 100%; }
+
+.flex-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.items-footer {
+  color: white;
+  font-size: .9rem;
+  margin: 30px 35px 30px 30px; }
+
+.redSocial {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  display: inline-block; }
+
+.redSocial {
+  margin-right: 15%;
+  margin-top: 20px; }

@@ -1,0 +1,186 @@
+
+header{ 
+		.telefono{
+			text-align: center;
+
+
+		}
+		.telefono  span{
+			color: white;
+		}
+
+		 /*FOTO FONDO DE NAV*/
+		.bg-nav{
+		    background-image: linear-gradient(rgba(5, 7, 12, 0.20),  rgba(5, 7, 12, 0.20)),
+		    url(../img/img-10huaco.jpg);
+		    width: 100%;
+		    height: 90vh;   
+
+		} 
+
+		/*logo central*/
+		.logo-img{
+			margin-top: 2%;
+			margin-left: 35%;
+			text-align: center;
+		    
+		}
+
+}
+
+main{  
+
+	h2{
+		background-color: rgba(135, 135, 251, .2);
+		text-align: center;
+	  	font-size: $textLg;
+	  	font-weight: 600;
+	  	border: 2px solid;
+
+	}
+
+	/*info JACHAL*/
+	.info-jachal{
+		width: 100%;
+		border: 1px solid;	
+	    font-size: large;
+	    font-weight: 600;
+	    text-align: center;
+	   
+	}
+
+	.info-jachal p{
+		margin: 15px;
+	   
+	}
+
+	 /*seccion de fotos e info*/
+	.flex-lugares{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		
+
+	}
+
+
+	.text-infolugares{
+		background-color: rgba(255, 259, 249, .5);
+		display: flex;
+		flex-direction: column;
+		border-top: 3px solid;
+		border-bottom: 3px solid;
+	    align-items: center;
+	    width: 800px;
+	    height: 500px;
+	    margin: 10px;
+	    font-size: large;
+
+	}    
+
+	.text-infolugares img{
+		border-radius: 5%;
+	}
+
+	.text-infolugares img:hover {
+		transform: scale(1.03);
+	    transition: transfor 3s;
+	    cursor: pointer;
+	}	
+
+
+
+	.text-infolugares p{
+		font-size: 18px;
+		font-weight: 300;
+
+	}
+
+
+	.w-100{
+		width: 100%;
+	}
+
+/*PROX whatsapp*/
+
+// .container-what{
+// 	background-color:rgba(87, 166, 57, .7);
+// 	border: 1px solid #0a0a0a;
+// 	position: fixed;
+// 	z-index: 999;
+// 	border-radius: 50%;
+// 	bottom: 20px;
+// 	right: 35px;
+// 	padding: 10px;
+// 	transition: ease 0.3s;
+// 	animation: efecto 1.2s infinite;
+	
+// }
+
+// .container-what{
+// 	transform: scale(1.1);
+//     transition: 0.3s;
+//     &:hover{
+
+//     }
+
+// }
+
+// .btn-what{
+//     width: 45px;
+//     transition: ease 1s;
+// }
+
+// @keyframes efecto{
+// 	0%{
+//         box-shadow: 0 0 0 0 rgba(0, 0, 0, .85);
+// 	}
+// 	100%{
+//         box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+// 	}
+
+// }
+
+
+ 
+ /*Section Mapa*/
+.mapa{
+    display: flex; 
+    border: 1px solid;
+    flex-direction: row;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    overflow: hidden;
+
+    	
+}
+
+
+.mapa-ruta{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+  
+    
+	
+
+}
+
+
+.info-ruta40{
+	display: flex; 
+	background-color: rgba(255, 259, 249, .5);
+    border: 1px solid;
+    flex-direction: row;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    overflow: hidden;
+    
+
+}
+
+}
+
+
